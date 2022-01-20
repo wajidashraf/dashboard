@@ -1,0 +1,12 @@
+.custCard i {
+  font-size: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  min-height: 140px;
+}
+.custCard h1 {
+  text-align: center;
+  color: rgb(124, 122, 122);
+}

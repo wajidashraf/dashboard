@@ -1,0 +1,87 @@
+header {
+  background-color: rgb(211, 210, 210);
+  padding: 1rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.left {
+  display: flex;
+  align-content: center;
+}
+.logo {
+  margin: 0;
+  color: crimson;
+}
+.bars {
+  display: flex;
+  align-items: center;
+  margin-left: 1.5rem;
+}
+.search {
+  margin-left: 2rem;
+  display: flex;
+  align-items: center;
+  border: 1px solid #aaa;
+  padding: 0 1rem;
+  border-radius: 20px;
+}
+.search input {
+  width: 220px;
+  padding-left: 0.5rem;
+  border: 0;
+  background: transparent;
+  font-size: 1.2rem;
+}
+.search input:focus {
+  outline: none;
+}
+.right {
+  display: flex;
+}
+.pills {
+  margin-right: 1rem;
+}
+
+.pills span {
+  padding: 0.4rem;
+  background: cornflowerblue;
+  margin-right: 0.7rem;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  color: #fff;
+}
+.pills i {
+  vertical-align: bottom;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.select select {
+  background: transparent;
+  border: none;
+}
+.select select:focus {
+  outline: none;
+}
+
+.time {
+  margin: 0 1rem;
+  display: flex;
+  align-items: center;
+}
+.right .bars {
+  margin: 0 1rem 0 0;
+}
+
+.fa-gear,
+.fa-user {
+  width: 1.3rem;
+  height: 1.3rem;
+  vertical-align: baseline;
+  text-align: center;
+}
